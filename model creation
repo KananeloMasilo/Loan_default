@@ -1,0 +1,24 @@
+Model creation
+
+At the beginning of this project we cleaned our data and performed all preprocessing steps, so now that our data was ready to be fitted to the model,
+we randomly chose between numerous models like Support vector machine (SVM),
+Logistic regression, Decision Tree and Random Forest. These are supervised machine learning, models for classification.
+We also realized that the problem we are trying to solve consists of dichotomous data that is why we chose classification models. 
+We followed the following distinct steps to create the best model to suit our project:
+1.	Splitting of dataset into training and test data
+2.	We fitted the training data that we split before to different models to perceive how our chosen models will behave.
+3.	We also fitted the models with test data to see their accuracy score, so that we can make better decision when concluding about the final model to use.
+4.	 We did model tuning again, this time with different hyper parameter sizes to see how accurate our models would be in many and diverse subsets of data. 
+As a result, we assured that it generalizes well to future data while also boosting the model's accuracy. This was also fulfilled with cross validation.
+5.	We also chose some models randomly under supervised machine learning classification that include, Logistic regression, Decision Tree,
+Random Forest and Support vector machine. 
+
+6.	Among all these trained models the model with high accuracy after being fed data, 
+is the one that will provide final results of whether a customer can be granted loan or not. 
+In this project We decided to utilize Random Forest classifier model because,
+•	it has fewer execution time 
+•	higher accuracy than other used models
+•	it is used in banking to control loan default 
+•	easy to use and flexible
+
+
